@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url(bg1.png); background-size: cover">
+	<div class="main">
+		<div class="sword">
+			<img src="maska.png" style="width: 130px; height: 130px">
+		</div>
+		<div class="nojni">
+			<img src="kagune.png" style="width: 130px; height: 130px">
+		</div>
+		<div class="shield">
+			<img src="тоука.png" style="width: 130px; height: 130px">
+		</div>
+		
+		<div class="school">
+			<img src="school.png" alt="">
+		</div>
+		<div  class="mastery"> 
+			<img src="masterskaya.png" alt="">
+		</div>
+		<div  class="arena"> 
+			<img src="arena.png" alt="">
+		</div>
+		<img src="player.png" alt="" class="main_player">
+		<div class="col-12" style="height: 1000px; margin-left: 10px; display: none">
+			<div class="ratio ratio-16x9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/hz99thn3UAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	
+	<!--1 локация-->
+	<div class="location1" style="display:none;">
+	<div class="loc1" style="">
+
+		<!--задание на доске-->
+		<div class="mx-auto col-3 ">
+			<img src="" style="position: absolute; width: 300px" >
+			<h4 class="p-2 pl-4 text-white" style="position: absolute; width: 300px">Кто я?</h4>
+		</div>
+		
+		<!--учитель-->
+		<div class="loc1_teacher"></div> 
+
+		<!--парты школьные-->
+		<div style="position: absolute; margin-top: 35%; margin-left: 25%">
+			<img src="Loc1/2.png" style="width: 200px; position: absolute;">
+			<img src="Loc1/2.png" style="width: 200px; position: absolute; margin-left: 220px">
+			<img src="Loc1/2.png" style="width: 200px; position: absolute; margin-left: 440px">
+			<img src="Loc1/2.png" style="width: 200px; position: absolute; margin-left: 660px">			
+		</div>
+
+		<!--варианты ответов-->
+		<div class="loc1_variants_block">
+			 <div class="loc1_variants">Вариант 1: человек</div>
+			 <div class="loc1_variants" style="margin-left: 150px;">Вариант 2: алекс</div>
+			 <div class="loc1_variants" style="margin-left: 300px; ">Вариант 3: самурай</div>
+			 <div class="loc1_variants" style="margin-top: 140px; ">Вариант 4: дерево</div>
+			 <div class="loc1_variants" style="margin-top: 140px; margin-left: 150px;">Вариант 5: собака</div>
+			 <div class="loc1_pravilno" style="margin-top: 140px; margin-left: 300px;">Вариант 6: я... гуль.</div>
+		</div>
+
+		<!--игрок на 1-ой локации-->
+		<img src="Loc1/player_fall.png" class="loc1_player">
+
+		<!--бабл с заданием учителя-->
+		<div class="loc1_talk" >
+			постарайся ответить на вопрос. если ума хватит, конечно.
+		</div>
+	</div>
+	</div>
+
+
+	<!--2 локация-->
+	<div class="location2" style="display:none;">
+	<div class="loc2" style="">
+
+		<!--задание на доске-->
+		<div class="mx-auto col-3 ">
+			<img src="" style="position: absolute; width: 300px" >
+			<h4 class="p-2 pl-4 text-white" style="position: absolute; width: 300px">что это за место?</h4>
+		</div>
+		
+		<!--учитель-->
+		<div class="loc2_teacher"></div> 
+
+		<!--варианты ответов-->
+		<div class="loc2_variants_block">
+			 <div class="loc2_variants">Вариант 1: зоопарк</div>
+			 <div class="loc2_variants" style="margin-left: 150px;">Вариант 2: школа</div>
+			 <div class="loc2_pravilno" style="margin-left: 300px; ">Вариант 3: антейку</div>
+			 <div class="loc2_variants" style="margin-top: 140px; ">Вариант 4: парк</div>
+			 <div class="loc2_variants" style="margin-top: 140px; margin-left: 150px;">Вариант 5: дом</div>
+			 <div class="loc2_variants" style="margin-top: 140px; margin-left: 300px;">Вариант 6: ты кто?</div>
+		</div>
+
+		<!--игрок на 2-ой локации-->
+		<img src="Loc2/player_fall.png" class="loc1_player">
+
+		<!--бабл с заданием учителя-->
+		<div class="loc2_talk" >
+			постарайся ответить на вопрос. хорошо?
+		</div>
+	</div>
+	</div>
+
+
+
+	<!--3 локация-->
+	<div class="location3" style="display:none;">
+	<div class="loc3" style="">
+
+		<!--задание на доске-->
+		<div class="mx-auto col-3 ">
+			<h4 class="p-2 pl-4" style="position: absolute; width: 300px; color: black">кто это?</h4>
+		</div>
+		
+		<!--учитель-->
+		<div class="loc3_teacher"></div> 
+
+		<!--варианты ответов-->
+		<div class="loc3_variants_block">
+			 <div class="loc3_variants">Вариант 1: ризе</div>
+			 <div class="loc3_variants" style="margin-left: 150px;">Вариант 2: наруто</div>
+			 <div class="loc3_variants" style="margin-left: 300px; ">Вариант 3: сакура</div>
+			 <div class="loc3_pravilno" style="margin-top: 140px; ">Вариант 4: тоука</div>
+			 <div class="loc3_variants" style="margin-top: 140px; margin-left: 150px;">Вариант 5: нацу</div>
+			 <div class="loc3_variants" style="margin-top: 140px; margin-left: 300px;">Вариант 6: чичи</div>
+		</div>
+
+		<!--игрок на 3-ой локации-->
+		<img src="Loc3/player_fall.png" class="loc2_player">
+
+		<!--бабл с заданием учителя-->
+		<div class="loc3_talk" >
+			ответь на вопрос.
+		</div>
+	</div>
+	</div>
+
+
+
+	
+<script src="script.js"></script>
+	
+</body>
+</html>
